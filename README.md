@@ -1,0 +1,5 @@
+- [x] Instalar as dependências react-router-dom@6 e axios
+- [x] Criar um provider utilizando o axios e armazenar a url em uma variável de ambiente
+- [x] Implementar rotas autenticadas e se houver alguem tentando acessa-las, pedir para realizar a autenticação via login
+- [ ] Crie uma página para listar os posts vindos da API
+- [ ] Cire uma outra página para mostrar o post. Lembre-se que para ver as duas páginas o usuário precisa estar autenticado.
