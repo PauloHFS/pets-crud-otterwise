@@ -1,0 +1,39 @@
+.container {
+  max-width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  height: 50px;
+  background-color: black;
+  color: white;
+
+  padding-right: 15px;
+
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navbar ul li {
+  height: 50px;
+}
+
+.navbar-link {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  text-decoration: none;
+}

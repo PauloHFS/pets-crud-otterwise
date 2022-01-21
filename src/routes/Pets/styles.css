@@ -1,0 +1,26 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 300px;
+  height: auto;
+
+  margin-bottom: 16px;
+  border-radius: 10px;
+  border: 2px gray solid;
+}
+
+.card-image {
+  width: 300px;
+  height: auto;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.card-info {
+  padding-left: 10px;
+}

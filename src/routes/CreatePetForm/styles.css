@@ -1,0 +1,28 @@
+.container {
+  max-width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title {
+  width: 100vw;
+}
+
+.image {
+  width: 450px;
+  height: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}

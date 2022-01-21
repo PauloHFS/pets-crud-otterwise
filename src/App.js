@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
 
-import Pets from './routes/Pets';
+import Pets from './routes/Pets/Pets';
 import Login from './routes/Login';
-import CreatePetForm from './routes/CreatePetForm';
+import CreatePetForm from './routes/CreatePetForm/CreatePetForm';
 
-import Layout from './components/Layout';
+import Layout from './components/Layout/Layout';
 
 import { AuthProvider, RequireAuth } from './context/auth-context';
 
